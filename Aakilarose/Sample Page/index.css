@@ -1,0 +1,200 @@
+html{
+	box-sizing: border-box;
+	display: flex;
+}
+
+body{
+	background-image: url("backg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:auto ;
+}
+
+
+.container{
+	position: relative;
+
+}
+
+.container img{
+	width: 100%;
+	height:20vw;
+
+}
+
+.navbar{
+	
+	overflow: hidden;
+	top: 0px;
+}
+
+
+.button{
+	background-color:#de027f;
+}
+
+
+
+li{
+	list-style-type: none;
+	
+}
+
+.navbar li{
+	display: inline-block;
+	float: right;
+	
+}
+
+
+input,button{
+	border-radius: 40px;
+	padding:3px;
+	margin:3px; 
+
+
+}
+
+input:hover{
+	background-color:violet;
+}
+.form{
+	background-color: rgba(0,0,255,0.5);
+	position: absolute;
+	top:2%;
+	font-size: 17px;
+	padding: 10px;
+	right:2%;
+	width: 94%;
+	}
+
+.form p{
+	color: white;
+	float: left;
+	left:5%;
+}
+
+.desc{
+	text-align: center;
+	
+}
+.desc p{
+font-style: italic;
+}
+
+h3,.FamilyHeading{
+	color:blue;
+}
+
+#left,#right{
+	width:20vw;
+	height:20vw;
+	margin:2%;
+	border:4px solid blue;
+	border-radius:50%;
+}
+
+#love{
+	
+	/*height:7vw;
+	left: 60%;
+    width: 8%;*/
+
+}
+.imageblock{
+	display: block;
+}
+
+.finalimg{
+	display: block;
+	width:35vw;
+	height:20vw;
+	border-radius:30vw;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+    border:4px solid blue;
+}
+
+.FamilyHeading{
+	display: block
+}
+
+.mid-left {
+    position: absolute;
+    left: 15vw;
+    
+}
+
+.mid-right {
+    position: absolute;
+    right: 15vw;
+
+}
+
+
+
+.finallines{
+	padding-top: 2vw;
+	text-align: center;
+	font-style: italic;
+}
+
+.finalbtn{
+	margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   }
+
+   .button:last-of-type{
+
+   }
+
+ .Row1 {
+ 	float: left;
+ 	position: relative;
+ 	left: 1%;
+ }
+
+ .Row2 {
+ 	float: left;
+	 left: 15%;
+ 	position: relative;
+    
+ }
+
+ .Row3{
+ 	float: left;
+ 	left: 30%;
+ 	position: relative;
+ }
+
+ .Row4{
+ 	float: left;
+ 	left: 45%;
+ 	position: relative;
+ }
+
+.Row5{
+ 	float: left;
+ 	left: 55%;
+ 	position: relative;
+ }
+
+
+ .link{
+ 	float: left;
+ 	display: block;
+ 	padding: 2px;
+ }
+
+ .link li{
+ 	font-size: 1.3vw;
+ }
+
+ a{
+ text-decoration: none;
+ color: black;
+ }
+
